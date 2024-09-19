@@ -16,3 +16,9 @@ $ sudo apt install nmap
 
 A partir daí, foram realizadas as chamadas....
 
+
+sudo nmap -sS -p- 127.0.0.1
+sudo nmap -sT -p- 127.0.0.1
+
+sudo tcpdump -i lo -w tcp_connect_scan.pcap
+./extractData.sh
