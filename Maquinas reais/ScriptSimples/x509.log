@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-09-21-02-04-18
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1726894045.646195	3e9f48ef0f4fff2b201904965ba8d05670c4122a321fcbbbc23b2a918841bf82	3	322F87439B704CD78B0404486F6D2B9D98B78D09	CN=localhost.localdomain,O=16db2440ddfa4b56bef175454df63f6d	CN=localhost.localdomain,O=16db2440ddfa4b56bef175454df63f6d	1705714403.000000	1739842403.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	localhost	-	-	127.0.0.1	T	-	T	F
+#close	2024-09-21-02-04-18

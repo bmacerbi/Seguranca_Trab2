@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2024-09-21-02-04-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string
+1726894031.231997	C3Sdtn41vvQIfpQh0g	192.168.0.66	58472	192.168.0.4	22	-	-	0	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-OpenSSH_9.3	-	-	-	-	-	-
+1726894031.509092	C7GaiH3xxQ1VPo3HE6	192.168.0.66	47580	192.168.0.4	22	-	-	0	-	SSH-1.5-NmapNSE_1.0	SSH-2.0-OpenSSH_9.3	-	-	-	-	-	-
+1726894032.006020	CDhnRF3ZU5niJYREwc	192.168.0.66	47598	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	ecdsa-sha2-nistp256	-
+1726894031.751747	CKaj5k3MdQXMPIUmCc	192.168.0.66	47590	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894032.615051	ChECuJfmtwpbxYdX7	192.168.0.66	47624	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894032.363465	CyI0gL2GUR3Od3qtn4	192.168.0.66	47610	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894031.509248	CIusuc2NJSYducMULc	192.168.0.66	47570	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894031.199654	CdrJrW1t1J22v40qq8	192.168.0.66	58460	192.168.0.4	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.3	-	-	-	-	-	-
+1726894032.866000	CjUw6T18Ocnmq1LTI4	192.168.0.66	47634	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	ssh-ed25519	-
+1726894045.651177	CUtkR91H7MjsbajIC6	192.168.0.66	42788	192.168.0.4	22	-	-	0	-	\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c\xa7\xe4random1random2random3random4\x00\x00\x0c\x00/\x00	SSH-2.0-OpenSSH_9.3	-	-	-	-	-	-
+#close	2024-09-21-02-04-18

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2024-09-21-02-04-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1726893407.701452	CHKXV94C7Z6mr2kuzc	192.168.0.66	39732	192.168.0.4	161	0.000003	3	public	1	0	0	0	-	-
+1726893408.502662	C9lEUb38PRy5kx1Zn9	192.168.0.66	39734	192.168.0.4	161	0.000002	3	public	1	0	0	0	-	-
+#close	2024-09-21-02-04-51

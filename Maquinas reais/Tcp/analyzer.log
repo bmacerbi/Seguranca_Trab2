@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-09-21-02-04-42
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1726892801.206362	violation	protocol	SIP	CP1BZs2EJ6BG0tmkW4	-	192.168.0.4	6881	112.248.103.213	5060	Binpac exception: binpac exception: string mismatch at /builddir/build/BUILD/zeek-6.0.4/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\xdd\xcb\x0b\xcd\x1bs$\xc5\xdd\x1fh\x17e1:q4:ping1:t4:pn"	-
+#close	2024-09-21-02-04-42

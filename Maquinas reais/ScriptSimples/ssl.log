@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-09-21-02-04-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1726894031.172440	CfRB9CDtE9XTjtMwh	192.168.0.66	44094	192.168.0.4	8000	-	-	-	-	F	-	-	F	C	-	-	-
+1726894031.352690	CjalCR2Za5V4xJoDE9	192.168.0.66	42468	192.168.0.4	8080	-	-	-	-	F	-	-	F	C	-	-	-
+1726894045.407781	CotzIAl7sF1ghkuh2	192.168.0.66	48302	192.168.0.4	6881	-	-	-	-	F	-	-	F	C	-	-	-
+1726894045.651177	CUtkR91H7MjsbajIC6	192.168.0.66	42788	192.168.0.4	22	-	-	-	-	F	-	-	F	C	-	-	-
+1726894045.705130	Cs4nYI3537xIMrgrT2	192.168.0.66	43428	192.168.0.4	9090	TLSv13	TLS_AES_256_GCM_SHA384	x25519	-	F	-	-	T	CsiI	-	-	-
+1726894038.405948	C6h1ZJ3puyueEPVICl	192.168.0.66	42624	192.168.0.4	8080	-	-	-	-	F	-	-	F	C	-	-	-
+1726894045.421348	CINdP44PySOjkvNoL3	192.168.0.66	43398	192.168.0.4	9090	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	F	Csxn	3e9f48ef0f4fff2b201904965ba8d05670c4122a321fcbbbc23b2a918841bf82	(empty)	-
+1726894045.648631	C7poXx1bMdn8RoIcx2	192.168.0.66	43408	192.168.0.4	9090	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	F	Csxn	3e9f48ef0f4fff2b201904965ba8d05670c4122a321fcbbbc23b2a918841bf82	(empty)	-
+1726894045.649516	CWcNgr3ux9xqJAbpzf	192.168.0.66	43424	192.168.0.4	9090	TLSv12	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	F	Csxn	3e9f48ef0f4fff2b201904965ba8d05670c4122a321fcbbbc23b2a918841bf82	(empty)	-
+1726894045.712938	C2GfPU36xFTF45I9r3	192.168.0.66	43430	192.168.0.4	9090	TLSv13	TLS_AES_128_GCM_SHA256	secp256r1	-	F	-	-	F	Cji	-	-	-
+1726894046.893477	CTl78435OwnglZpb29	192.168.0.66	43448	192.168.0.4	9090	TLSv13	TLS_AES_128_GCM_SHA256	secp256r1	-	F	-	-	F	Cji	-	-	-
+1726894045.732440	CTyc3f4gs26zWK4wn3	192.168.0.66	43438	192.168.0.4	9090	TLSv13	TLS_AES_128_GCM_SHA256	secp256r1	-	F	-	-	F	Cji	-	-	-
+#close	2024-09-21-02-04-18

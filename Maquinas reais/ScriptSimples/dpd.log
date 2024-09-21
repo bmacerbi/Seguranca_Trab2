@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2024-09-21-02-04-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1726894031.173296	CfRB9CDtE9XTjtMwh	192.168.0.66	44094	192.168.0.4	8000	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+1726894045.419836	CotzIAl7sF1ghkuh2	192.168.0.66	48302	192.168.0.4	6881	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 36023
+1726894045.681622	CUtkR91H7MjsbajIC6	192.168.0.66	42788	192.168.0.4	22	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21320
+#close	2024-09-21-02-04-18

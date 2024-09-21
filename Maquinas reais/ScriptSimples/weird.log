@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-09-21-02-04-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1726894031.172440	CfRB9CDtE9XTjtMwh	192.168.0.66	44094	192.168.0.4	8000	bad_HTTP_request	-	F	zeek	HTTP
+1726894031.172440	CfRB9CDtE9XTjtMwh	192.168.0.66	44094	192.168.0.4	8000	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1726894031.302776	ClMoWnUlDZWJ4OKO	192.168.0.66	42166	192.168.0.4	8000	unknown_HTTP_method	XQRU	F	zeek	-
+1726894031.302778	C3Sdtn41vvQIfpQh0g	192.168.0.66	58472	192.168.0.4	22	SSH_version_mismatch	SSH-2.0-OpenSSH_9.3 vs SSH-1.5-Nmap-SSH1-Hostkey	F	zeek	-
+1726894031.352690	CjalCR2Za5V4xJoDE9	192.168.0.66	42468	192.168.0.4	8080	bad_HTTP_request	-	F	zeek	HTTP
+1726894031.352690	CjalCR2Za5V4xJoDE9	192.168.0.66	42468	192.168.0.4	8080	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1726894031.560612	C7GaiH3xxQ1VPo3HE6	192.168.0.66	47580	192.168.0.4	22	SSH_version_mismatch	SSH-2.0-OpenSSH_9.3 vs SSH-1.5-NmapNSE_1.0	F	zeek	-
+1726894031.610903	Cr0bFH11wXCP1c4pCc	192.168.0.66	42484	192.168.0.4	8080	unknown_HTTP_method	IPZY	F	zeek	-
+1726894031.610914	CIusuc2NJSYducMULc	192.168.0.66	47570	192.168.0.4	22	ssh_unknown_kex_algorithm	diffie-hellman-group14-sha256	F	zeek	SSH
+1726894031.867021	CKaj5k3MdQXMPIUmCc	192.168.0.66	47590	192.168.0.4	22	ssh_unknown_kex_algorithm	diffie-hellman-group14-sha256	F	zeek	SSH
+1726894032.119637	CDhnRF3ZU5niJYREwc	192.168.0.66	47598	192.168.0.4	22	ssh_unknown_kex_algorithm	diffie-hellman-group14-sha256	F	zeek	SSH
+1726894032.476259	CyI0gL2GUR3Od3qtn4	192.168.0.66	47610	192.168.0.4	22	ssh_unknown_kex_algorithm	diffie-hellman-group14-sha256	F	zeek	SSH
+1726894032.727952	ChECuJfmtwpbxYdX7	192.168.0.66	47624	192.168.0.4	22	ssh_unknown_kex_algorithm	diffie-hellman-group14-sha256	F	zeek	SSH
+1726894032.977511	CjUw6T18Ocnmq1LTI4	192.168.0.66	47634	192.168.0.4	22	ssh_unknown_kex_algorithm	diffie-hellman-group14-sha256	F	zeek	SSH
+1726894038.405948	C6h1ZJ3puyueEPVICl	192.168.0.66	42624	192.168.0.4	8080	bad_HTTP_request	-	F	zeek	HTTP
+#close	2024-09-21-02-04-18

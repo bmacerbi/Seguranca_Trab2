@@ -1,0 +1,87 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-09-21-02-04-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1726894131.183253	CTRRLf2bLtbcfmpYo3	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	32	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894131.265666	CTRRLf2bLtbcfmpYo3	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894131.184218	Ci9hDPv8ac9E4OmXj	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894131.184625	Ci9hDPv8ac9E4OmXj	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d,192.168.0.66	120.000000,120.000000	F
+1726894131.184324	Ci8S0P3HyVVIwzUG1l	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894131.184414	Ci8S0P3HyVVIwzUG1l	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d	120.000000	F
+1726894127.046028	CogQLo19FtHK9Cj7B6	192.168.0.7	5353	224.0.0.251	5353	udp	71	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894147.048504	CogQLo19FtHK9Cj7B6	192.168.0.7	5353	224.0.0.251	5353	udp	72	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894131.183154	CogQLo19FtHK9Cj7B6	192.168.0.7	5353	224.0.0.251	5353	udp	32	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894131.183343	CogQLo19FtHK9Cj7B6	192.168.0.7	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894167.005469	CAxPsB3wBCTtAIv1n7	192.168.0.7	5353	224.0.0.251	5353	udp	73	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894179.257378	CsxX6f1F2p5Ht5PE35	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	33	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894179.346781	CsxX6f1F2p5Ht5PE35	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894179.258335	CkIhYB3cbOXrjhtyPc	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894179.258529	CkIhYB3cbOXrjhtyPc	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d,192.168.0.66	120.000000,120.000000	F
+1726894179.258430	ClFJ6M1mPvqtDy2iri	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894179.258599	ClFJ6M1mPvqtDy2iri	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d	120.000000	F
+1726894179.257268	C4JPm34D73cgfC1H	192.168.0.7	5353	224.0.0.251	5353	udp	33	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894187.065428	C4JPm34D73cgfC1H	192.168.0.7	5353	224.0.0.251	5353	udp	74	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894179.391514	C4JPm34D73cgfC1H	192.168.0.7	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894207.064769	CbuBTK2ysPI00JMA16	192.168.0.7	5353	224.0.0.251	5353	udp	75	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894221.004188	CACzDW1wdjChYaDgqa	192.168.0.4	37376	1.1.1.1	53	udp	51190	-	tracker.trackerfix.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894221.004508	CZga4m2c4c9bXuMMFj	192.168.0.4	48716	1.1.1.1	53	udp	14055	0.027622	tracker.trackerfix.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.8.8.100	2138.000000	F
+1726894233.008228	CyoFTc3RIesRNHjCvf	192.168.0.4	38923	1.1.1.1	53	udp	31772	-	tracker.opentrackr.org	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894233.007744	CcrWQB2i6mKRzX4Iuk	192.168.0.4	52440	1.1.1.1	53	udp	56340	0.022387	tracker.opentrackr.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.158.213.92	24.000000	F
+1726894233.034362	C2OcEY26Qb0UaMk3he	192.168.0.4	51562	1.1.1.1	53	udp	7838	-	tracker.pirateparty.gr	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1726894233.033643	Cd0EP22wP4SoNCHW0a	192.168.0.4	45112	1.1.1.1	53	udp	56484	-	tracker.pirateparty.gr	1	C_INTERNET	28	AAAA	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1726894233.060619	CH7Uxb2gAt9jOMITX1	192.168.0.4	39445	1.1.1.1	53	udp	4827	0.019801	opentor.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	172.232.31.180,172.232.25.148,172.232.4.213	568.000000,568.000000,568.000000	F
+1726894233.061236	ClETIi1Fr0v3CVoV6e	192.168.0.4	34193	1.1.1.1	53	udp	40433	-	opentor.org	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894233.094772	Cka9vr1xqoye1RqtWe	192.168.0.4	37214	1.1.1.1	53	udp	9934	0.017767	9.rarbg.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.243.227	2171.000000	F
+1726894233.094175	CV9dSY3w6jFHewZ1ma	192.168.0.4	49387	1.1.1.1	53	udp	42166	-	9.rarbg.me	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894233.121918	CB2f4s4p1ZXYFqTHfk	192.168.0.4	38536	1.1.1.1	53	udp	50214	-	tracker.coppersurfer.tk	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894233.145919	CERCrECgYxAIrrjV1	192.168.0.4	60693	1.1.1.1	53	udp	36683	0.019005	open.tracker.cl	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	opentracker.internetwarriors.net	153.000000	F
+1726894233.146562	CBep1i4pUG3jjVg7k	192.168.0.4	57779	1.1.1.1	53	udp	11587	0.024958	open.tracker.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	opentracker.internetwarriors.net,186.10.172.11	871.000000,50.000000	F
+1726894233.166182	CqvWXe296cJ3mdbSV4	192.168.0.4	45536	1.1.1.1	53	udp	16267	-	opentracker.internetwarriors.net	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894233.402327	C2Wb78wzdKbOyC132	192.168.0.4	50319	1.1.1.1	53	udp	45306	0.021172	tracker.leechers-paradise.org	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	62971.bodis.com	7431.000000	F
+1726894233.403048	CILeER2NNBtdGpi1k4	192.168.0.4	47408	1.1.1.1	53	udp	6161	0.025321	tracker.leechers-paradise.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62971.bodis.com,199.59.243.227	5289.000000,5109.000000	F
+1726894233.424730	Cval3R2yiiyiOlgiJ9	192.168.0.4	34796	1.1.1.1	53	udp	58872	-	62971.bodis.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894233.457954	CV7cOJ1nC5D0u95jsl	192.168.0.4	53985	1.1.1.1	53	udp	61458	0.019711	open.demonii.si	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.8.8.100	3041.000000	F
+1726894233.458566	CSdwuM3PQip43Fr7Lb	192.168.0.4	32802	1.1.1.1	53	udp	37884	-	open.demonii.si	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1726894233.493605	C0sXXL3fKf7kKXOn9h	192.168.0.4	49902	1.1.1.1	53	udp	50063	0.023426	exodus.desync.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2607:f178:0:32::3	95.000000	F
+1726894233.494294	CjXGAz3efd9VPYeYE1	192.168.0.4	35286	1.1.1.1	53	udp	1411	0.023933	exodus.desync.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.83.20.20	134.000000	F
+1726894233.522162	C45pRRfoRjVjiuVnb	192.168.0.4	36063	1.1.1.1	53	udp	8981	0.018569	tracker.moeking.me	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	tracker.moeking.me.cdn.cloudflare.net,2606:4700:3032::ac43:ddea,2606:4700:3033::6815:3603	138.000000,138.000000,138.000000	F
+1726894233.522814	CbxttP3I5M4nc8DNVg	192.168.0.4	38607	1.1.1.1	53	udp	96	0.027190	tracker.moeking.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	tracker.moeking.me.cdn.cloudflare.net,172.67.221.234,104.21.54.3	89.000000,89.000000,89.000000	F
+1726894233.554925	C6gniT1xy7WsrJI1w3	192.168.0.4	50574	1.1.1.1	53	udp	53598	-	9.rarbg.to	1	C_INTERNET	28	AAAA	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1726894233.555555	CWN5tgE1oe8SAI9qg	192.168.0.4	53506	1.1.1.1	53	udp	28396	-	9.rarbg.to	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1726894227.031487	CKAbAM2ydqpfTb2yzd	192.168.0.7	5353	224.0.0.251	5353	udp	76	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894227.393392	CKAbAM2ydqpfTb2yzd	192.168.0.7	5353	224.0.0.251	5353	udp	34	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894227.457406	CKAbAM2ydqpfTb2yzd	192.168.0.7	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894227.393672	CiF2S52Ee77ocKMmX1	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	34	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894227.450134	CiF2S52Ee77ocKMmX1	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894227.394444	C35dv83XUx9TcUPXeg	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894227.394639	C35dv83XUx9TcUPXeg	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d,192.168.0.66	120.000000,120.000000	F
+1726894227.394544	C234Pq3HMPcQLRwuV8	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894227.394710	C234Pq3HMPcQLRwuV8	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d	120.000000	F
+1726894247.032233	CIy8pP3wfvbTnJv3Cl	192.168.0.7	5353	224.0.0.251	5353	udp	77	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894268.693858	CI4Ye85PAIgcZhAgb	192.168.0.3	5353	224.0.0.251	5353	udp	0	0.000234	tv casa._airplay._tcp.local	32769	qclass-32769	33	SRV	0	NOERROR	T	F	F	F	0	x00500fscc0e.local	120.000000	F
+1726894268.693994	Cp8ErO1WZmpC0OHoj	fe80::3ae7:c0ff:fe05:535c	5353	ff02::fb	5353	udp	0	0.000186	tv casa._airplay._tcp.local	32769	qclass-32769	33	SRV	0	NOERROR	T	F	F	F	0	x00500fscc0e.local	120.000000	F
+1726894275.503370	CBN0o93gA2OHlv4DUa	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	35	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894275.586016	CBN0o93gA2OHlv4DUa	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894275.503979	CfuGhN1kVLLSlivhe7	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894275.504137	CfuGhN1kVLLSlivhe7	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d,192.168.0.66	120.000000,120.000000	F
+1726894275.503983	CMpULB4iKnibzhe2jk	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894275.504187	CMpULB4iKnibzhe2jk	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d	120.000000	F
+1726894267.033197	C4sWai429GEzFKUR06	192.168.0.7	5353	224.0.0.251	5353	udp	78	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894275.503237	C4sWai429GEzFKUR06	192.168.0.7	5353	224.0.0.251	5353	udp	35	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894287.101185	C4sWai429GEzFKUR06	192.168.0.7	5353	224.0.0.251	5353	udp	79	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894275.649978	C4sWai429GEzFKUR06	192.168.0.7	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894307.050540	CVcSQY26OJKRIzPp49	192.168.0.7	5353	224.0.0.251	5353	udp	80	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894323.658741	Cnlzxk4akZeuXaEpfa	192.168.0.7	5353	224.0.0.251	5353	udp	36	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894327.113874	Cnlzxk4akZeuXaEpfa	192.168.0.7	5353	224.0.0.251	5353	udp	81	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894323.786284	Cnlzxk4akZeuXaEpfa	192.168.0.7	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894323.659814	CRsMdu1v1lnNfrmTy2	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894323.660019	CRsMdu1v1lnNfrmTy2	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d,192.168.0.66	120.000000,120.000000	F
+1726894323.660555	C34EW93XyN7L4joTOk	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	36	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894323.782624	C34EW93XyN7L4joTOk	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894323.660979	COgnaG4TL9QzN3Lwgg	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894323.661051	COgnaG4TL9QzN3Lwgg	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d	120.000000	F
+#close	2024-09-21-02-04-03

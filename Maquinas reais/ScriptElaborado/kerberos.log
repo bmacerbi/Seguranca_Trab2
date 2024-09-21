@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	kerberos
+#open	2024-09-21-02-04-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	request_type	client	service	success	error_msg	from	till	cipher	forwardable	renewable	client_cert_subject	client_cert_fuid	server_cert_subject	server_cert_fuid
+#types	time	string	addr	port	addr	port	string	string	string	bool	string	time	time	string	bool	bool	string	string	string	string
+1726894191.551336	Cr8Pgk3nds2SdUxRne	192.168.0.66	35512	192.168.0.4	8080	AS	/NM	krbtgt/NM	-	-	-	0.000000	-	T	T	-	-	-	-
+1726894196.419585	CUSov34IlgdKlHk5ya	192.168.0.66	35280	192.168.0.4	6881	AS	/NM	krbtgt/NM	-	-	-	0.000000	-	T	T	-	-	-	-
+#close	2024-09-21-02-04-03

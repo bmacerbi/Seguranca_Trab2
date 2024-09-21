@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-09-21-02-04-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1726894034.862795	C537kNk5sQQiKVn1	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	30	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894034.957679	C537kNk5sQQiKVn1	fe80::9c92:31ff:fe5c:4e1e	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+1726894034.863913	CDDJJiPWh04Lgr8D8	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894034.864064	CDDJJiPWh04Lgr8D8	192.168.0.66	5353	224.0.0.251	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d,192.168.0.66	120.000000,120.000000	F
+1726894034.863917	CAMIyc3Zg4VtcAEa16	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	_6666fdf5_c465_4f6d_b1d6_4319f78eff8a_._kdeconnect._udp.local	60.000000	F
+1726894034.864136	CAMIyc3Zg4VtcAEa16	fe80::fcd6:8f03:af77:d42d	5353	ff02::fb	5353	udp	0	-	fedora.local	-	-	-	-	0	NOERROR	T	F	F	F	0	fe80::fcd6:8f03:af77:d42d	120.000000	F
+1726894026.950404	CyvgL62i2tClLUAj9	192.168.0.7	5353	224.0.0.251	5353	udp	66	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894046.954094	CyvgL62i2tClLUAj9	192.168.0.7	5353	224.0.0.251	5353	udp	67	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894034.862694	CyvgL62i2tClLUAj9	192.168.0.7	5353	224.0.0.251	5353	udp	30	-	_kdeconnect._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1726894034.918687	CyvgL62i2tClLUAj9	192.168.0.7	5353	224.0.0.251	5353	udp	0	-	_kdeconnect._udp.local	-	-	-	-	0	NOERROR	T	F	F	F	0	afcf1c45_279d_4b02_a0e3_a19afbd4b0ff._kdeconnect._udp.local	4500.000000	F
+#close	2024-09-21-02-04-18

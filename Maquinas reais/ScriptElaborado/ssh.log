@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2024-09-21-02-04-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string
+1726894133.045293	C1vZmd2YyBlBONswH8	192.168.0.66	48222	192.168.0.4	22	-	-	0	-	-	SSH-2.0-OpenSSH_9.3	-	-	-	-	-	-
+1726894290.562620	CtFiXt2dpVLLzqAQph	192.168.0.66	57362	192.168.0.4	22	-	-	0	-	SSH-1.5-NmapNSE_1.0	SSH-2.0-OpenSSH_9.3	-	-	-	-	-	-
+1726894290.564385	CAq1bojE9QzVYFILk	192.168.0.66	57370	192.168.0.4	22	-	-	0	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-OpenSSH_9.3	-	-	-	-	-	-
+1726894291.268721	Cjq6ou2TfAYNlPUQZa	192.168.0.66	35408	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	ecdsa-sha2-nistp256	-
+1726894291.014495	C8nHG71Lg3bfpfzwua	192.168.0.66	57382	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894291.880291	CiHbGm1TDe3AxJVve5	192.168.0.66	35426	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894290.758552	CIoO924vBngD5H21p2	192.168.0.66	57376	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894291.628360	Cvc4dE1gX45Fa8xSd3	192.168.0.66	35410	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	Algorithm negotiation failed	-
+1726894292.134545	CGFNE6NIsuoDt1ED3	192.168.0.66	35442	192.168.0.4	22	2	-	0	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_9.3	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha256	ssh-ed25519	-
+#close	2024-09-21-02-04-03

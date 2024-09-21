@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-09-21-02-04-50
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1726893298.742329	violation	protocol	RDPEUDP	CLo0H13CXS0vbuadjc	-	192.168.0.66	39732	192.168.0.4	3389	Binpac exception: binpac exception: out_of_bound: RDPEUDP_SYN:syndata_payload: 16 > 0	-
+1726893491.827678	violation	protocol	SNMP	CTJgkt1llJGtAPm8Ke	-	192.168.0.66	39732	192.168.0.4	162	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:len: 2 > 0	-
+1726893680.909883	violation	protocol	SYSLOG	CxYbfD2sIF3yunM2zc	-	192.168.0.66	39732	192.168.0.4	514	Binpac exception: binpac exception: out_of_bound: Syslog_Message_Optional_PRI:lt: 1 > 0	-
+1726893683.680133	violation	protocol	SIP	CDcg7W1QftSO6dvgad	-	192.168.0.4	6881	112.248.103.213	5060	Binpac exception: binpac exception: string mismatch at /builddir/build/BUILD/zeek-6.0.4/src/analyzer/protocol/sip/sip-protocol.pac:45: \x0aexpected pattern: "SIP/"\x0aactual data: "\x80d\xaa"	-
+1726893919.667931	violation	protocol	DHCP	CU6tQu3UzcLb3hW171	-	192.168.0.66	39732	192.168.0.4	68	Binpac exception: binpac exception: out_of_bound: DHCP_Message:giaddr: 28 > 0	-
+1726893921.270324	violation	protocol	DHCP	CBdg4o24OaxrQwpcFb	-	192.168.0.66	39734	192.168.0.4	68	Binpac exception: binpac exception: out_of_bound: DHCP_Message:giaddr: 28 > 0	-
+1726893923.674480	violation	protocol	KRB	C3OgAC1h8HP47t6CU1	-	192.168.0.66	39732	192.168.0.4	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:len: 2 > 0	-
+1726893924.475301	violation	protocol	KRB	CF2bI74HgaoZEbL1dg	-	192.168.0.66	39734	192.168.0.4	88	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:len: 2 > 0	-
+#close	2024-09-21-02-04-51

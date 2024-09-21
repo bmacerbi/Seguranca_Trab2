@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-09-21-02-04-18
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1726894031.172440	violation	protocol	HTTP	CfRB9CDtE9XTjtMwh	-	192.168.0.66	44094	192.168.0.4	8000	not a http request line	-
+1726894031.173296	violation	protocol	SSL	CfRB9CDtE9XTjtMwh	-	192.168.0.66	44094	192.168.0.4	8000	Invalid version late in TLS connection. Packet reported version: 21588	-
+1726894031.303619	violation	protocol	SSH	C3Sdtn41vvQIfpQh0g	-	192.168.0.66	58472	192.168.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1726894031.352690	violation	protocol	HTTP	CjalCR2Za5V4xJoDE9	-	192.168.0.66	42468	192.168.0.4	8080	not a http request line	-
+1726894031.561006	violation	protocol	SSH	C7GaiH3xxQ1VPo3HE6	-	192.168.0.66	47580	192.168.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1726894032.225685	violation	protocol	SSH	CDhnRF3ZU5niJYREwc	-	192.168.0.66	47598	192.168.0.4	22	Binpac exception: binpac exception: out_of_bound: ssh_string:val: 1510962993 > 245	-
+1726894032.273502	violation	protocol	SSH	CDhnRF3ZU5niJYREwc	-	192.168.0.66	47598	192.168.0.4	22	Binpac exception: binpac exception: out_of_bound: ssh_string:val: 1630678386 > 457	-
+1726894033.083029	violation	protocol	SSH	CjUw6T18Ocnmq1LTI4	-	192.168.0.66	47634	192.168.0.4	22	Binpac exception: binpac exception: out_of_bound: ssh_string:val: 941807762 > 245	-
+1726894033.104117	violation	protocol	SSH	CjUw6T18Ocnmq1LTI4	-	192.168.0.66	47634	192.168.0.4	22	Binpac exception: binpac exception: out_of_bound: ssh_string:val: 892418308 > 387	-
+1726894038.405948	violation	protocol	HTTP	C6h1ZJ3puyueEPVICl	-	192.168.0.66	42624	192.168.0.4	8080	not a http request line	-
+1726894045.419836	violation	protocol	SSL	CotzIAl7sF1ghkuh2	-	192.168.0.66	48302	192.168.0.4	6881	Invalid version late in TLS connection. Packet reported version: 36023	-
+1726894045.651177	violation	protocol	SSH	CUtkR91H7MjsbajIC6	-	192.168.0.66	42788	192.168.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1726894045.681622	violation	protocol	SSL	CUtkR91H7MjsbajIC6	-	192.168.0.66	42788	192.168.0.4	22	Invalid version late in TLS connection. Packet reported version: 21320	-
+1726894045.682237	violation	protocol	SSH	CUtkR91H7MjsbajIC6	-	192.168.0.66	42788	192.168.0.4	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+#close	2024-09-21-02-04-18
