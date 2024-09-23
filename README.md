@@ -1,24 +1,8 @@
 # Experimentação de Ferramentas de Segurança Computacional
 
-## Introdução
+Este trabalho tem como objetivo simular cenários de ataque em redes para desenvolver habilidades práticas na detecção e mitigação de vulnerabilidades. 
 
-Este trabalho tem como objetivo simular cenários de ataque em redes para desenvolver habilidades práticas na detecção e mitigação de vulnerabilidades.
+Nesse repositório, você poderá encontrar o relatório construido que irá detalhar todo o processo de construção do trabalho. Além disso, no diretório *\maquinas reais* é possível visualizar os dados capturados durantes as simulações.
 
-Iniciaremos os testes com a geração de ataques de varredura de portas utilizando a ferramenta *Nmap*. Em seguida, faremos a coleta desses ataques por meio do *TcpDump*, capturando os pacotes de rede e possibilitando que, ao fim, seja viável utilizarmos a ferramenta ||Zeek ou CICFlowmeter|| para analisar esses pacotes e gerar datasets de fluxos que poderão ser úteis para diferentes aplicações futuras.
+Por fim, para melhor visualização geral, disponibilizamos a demonstração da aplicação no vídeo a seguir: https://youtu.be/LJ2vB4cGMYQ
 
-## Técnica de Port Scanning Utilizada
-
-A princípio, destaca-se que a ferramente utilizada para a realização dos ataques de *Port Scanning* foi o *Nmap*. Para a instalação em uma distribuição linux basta realizar a chamada do comando:
-
-```
-$ sudo apt install nmap
-```
-
-A partir daí, foram realizadas as chamadas....
-
-
-sudo nmap -sS -p- 127.0.0.1
-sudo nmap -sT -p- 127.0.0.1
-
-sudo tcpdump -i lo -w tcp_connect_scan.pcap
-./extractData.sh
