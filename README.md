@@ -1,6 +1,6 @@
 # Experimentação de Ferramentas de Segurança Computacional
 
-Este trabalho tem como objetivo simular cenários de ataque em redes para desenvolver habilidades práticas na detecção e mitigação de vulnerabilidades. 
+Este trabalho realizado por Bruno Menegaz, Rhuan Garcia e Pedro Igor, tem como objetivo simular cenários de ataque em redes para desenvolver habilidades práticas na detecção e mitigação de vulnerabilidades. 
 
 Nesse repositório, você poderá encontrar o relatório construido que irá detalhar todo o processo de construção do trabalho. Além disso, no diretório *\maquinas reais* é possível visualizar os dados capturados durantes as simulações.
 
